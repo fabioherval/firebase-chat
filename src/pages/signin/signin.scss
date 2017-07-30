@@ -1,0 +1,32 @@
+page-signin {
+
+    .toolbar-title-md {
+        color: #F4F4F4 !important;
+    }
+
+    ion-content {
+        width: 100%;
+        position: relative;
+        background: url(../assets/images/bg-signin-signup.jpg);
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    .logo-signin {
+        width: 160px;
+        height: 160px;
+    }
+
+    h2 {
+        margin-top: -5px;
+    }
+
+    ion-input {
+        color: #000;
+    }
+
+    *::-webkit-input-placeholder {
+        color: #000 !important;
+    }
+
+}

@@ -1,0 +1,27 @@
+page-signup {
+
+    .toolbar-title-md {
+        color: #F4F4F4 !important;
+    }
+
+    .toolbar-md-transparent .bar-button-default-md {
+        color: #F4F4F4 !important;
+    }
+
+    ion-content {
+        width: 100%;
+        position: relative;
+        background: url(../assets/images/bg-signin-signup.jpg);
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    ion-input {
+        color: #000;
+    }
+
+    *::-webkit-input-placeholder {
+        color: #000 !important;
+    }
+
+}
