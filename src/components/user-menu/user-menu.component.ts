@@ -7,6 +7,7 @@ import { User } from './../../models/user.model';
 import { AuthService } from './../../providers/auth.service';
 
 import { UserProfilePage } from './../../pages/user-profile/user-profile';
+import { AboutPage } from './../../pages/about/about';
 
 @Component({
   selector: 'user-menu',
@@ -27,6 +28,10 @@ export class UserMenuComponent extends BaseComponent {
 
   onProfile(): void {
     this.navCtrl.push(UserProfilePage);
+  }
+
+  onAbout(): void {
+    this.navCtrl.push(AboutPage);
   }
 
 }

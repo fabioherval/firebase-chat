@@ -26,6 +26,7 @@ import { SigninPage } from './../pages/signin/signin';
 import { SignupPage } from './../pages/signup/signup';
 import { ChatPage } from './../pages/chat/chat';
 import { UserProfilePage } from './../pages/user-profile/user-profile';
+import { AboutPage } from './../pages/about/about';
 
 const firebaseAppConfig: FirebaseAppConfig = {
   apiKey: "AIzaSyBGKIWvO8YySw4sWlSgv7v5xHY1n9h5qSQ",
@@ -53,7 +54,8 @@ const firebaseAuthConfig = {
     UserInfoComponent,
     UserMenuComponent,
     ChatPage,
-    UserProfilePage
+    UserProfilePage,
+    AboutPage
   ],
   imports: [
     BrowserModule,
@@ -68,7 +70,8 @@ const firebaseAuthConfig = {
     SigninPage,
     SignupPage,
     ChatPage,
-    UserProfilePage
+    UserProfilePage,
+    AboutPage
   ],
   providers: [
     AuthService,

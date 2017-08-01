@@ -3,9 +3,22 @@
   "short_name": "Entity Chat",
   "start_url": "index.html",
   "display": "standalone",
+  "orientation": "portrait",
   "icons": [{
-    "src": "assets/images/logo.png",
-    "sizes": "2732x2732",
+    "src": "assets/images/logo238.png",
+    "sizes": "238x238",
+    "type": "image/png"
+  }, {
+    "src": "assets/images/logo338.png",
+    "sizes": "338x338",
+    "type": "image/png"
+  }, {
+    "src": "assets/images/logo438.png",
+    "sizes": "438x438",
+    "type": "image/png"
+  }, {
+    "src": "assets/images/logo538.png",
+    "sizes": "538x538",
     "type": "image/png"
   }],
   "background_color": "#4e8ef7",
